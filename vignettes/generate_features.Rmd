@@ -2,10 +2,7 @@
 title: "Generate sequential patterns"
 author: "Nova F. Smedley"
 date: "`r Sys.Date()`"
-output: 
-  prettydoc::html_pretty:
-    theme: leonids
-    highlight: github
+output: pdf_document
 vignette: >
   %\VignetteIndexEntry{Generate sequential patterns}
   %\VignetteEngine{knitr::rmarkdown}

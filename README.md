@@ -39,7 +39,7 @@ As usual, function documentation can be reached by running `?function_name`, in 
 
 #### vignettes
 
-For step-by-step examples, see the vignettes: "Generate sequential patterns" and "Predicting residual survival", "Model selection and plotting performance."
+For step-by-step examples, see the vignettes: "[Generate sequential patterns](http://htmlpreview.github.io/?https://github.com/novasmedley/gbmSpm/blob/master/vignettes/generate_features.html)"" and "[Predicting residual survival](http://htmlpreview.github.io/?https://github.com/novasmedley/gbmSpm/blob/master/vignettes/survival_prediction.html)", "[Model selection and plotting performance](http://htmlpreview.github.io/?https://github.com/novasmedley/gbmSpm/blob/master/vignettes/model_selection.html)."
 
 #### command line examples
 Since the pipeline was repeated while searching for hyperparameters, two components were converted for use via the command line:

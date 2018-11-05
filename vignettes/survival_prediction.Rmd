@@ -2,10 +2,7 @@
 title: "Predicting residual survival"
 author: "Nova F. Smedley"
 date: "`r Sys.Date()`"
-output: 
-  prettydoc::html_pretty:
-    theme: leonids
-    highlight: github
+output: pdf_document
 vignette: >
   %\VignetteIndexEntry{Predicting residual survival}
   %\VignetteEngine{knitr::rmarkdown}

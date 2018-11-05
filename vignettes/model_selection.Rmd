@@ -2,10 +2,7 @@
 title: "Model selection and plotting performance"
 author: "Nova F. Smedley"
 date: "`r Sys.Date()`"
-output: 
-  prettydoc::html_pretty:
-    theme: leonids
-    highlight: github
+output: pdf_document
 vignette: >
   %\VignetteIndexEntry{Model selection and plotting performance}
   %\VignetteEngine{knitr::rmarkdown}
@@ -15,7 +12,8 @@ vignette: >
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>"
+  comment = "#>",
+  dev = 'png'
 )
 ```
 
