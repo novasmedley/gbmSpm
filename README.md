@@ -1,4 +1,4 @@
-# Find predictive sequential patterns in imaging and
+# Find predictive temporal patterns in glioblastoma
 
 
 
