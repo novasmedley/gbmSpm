@@ -57,12 +57,11 @@ Since the pipeline was repeated while searching for hyperparameters, two compone
     To use dummy data, run `example_logit_spm.R ` in the `examples` folder:
 
     ```
-    $ Rscript example_logit_spm.R  XX
+    $ Rscript example_logit_spm.R --tType 'rate' --maxgap 60 --maxlength 2 --lmax 0.2 --llength 100 --dataFolder sup0.25g60l2z2 --prefix logits --dir ~/gbm_spm_example_multi --saveLogit yes
     ```
 
-    For more details, see the  vignette.
+Alternatively, the example scripts can be explored in RStudio. For more details, see in-depth examples in `vignettes`.
 
-Alternatively, the example scripts can be explored in RStudio.
 
 ### Source code to paper
 
@@ -78,9 +77,9 @@ The `paper` folder contains the R code used in the published paper. Specifically
 
 For example, to generate temporal features, `run_spm.R` in the *paper* folder was called in the terminal:
 
-    ```
-    $ Rscript run_spm.R --tType 'rate' --minSupp 0.4 --minSupp 0.4 --minSuppList 'no' --maxgap 60 --maxlength 2 --outDir ~/spm_analysis
-    ```
+```
+$ Rscript run_spm.R --tType 'rate' --minSupp 0.4 --minSupp 0.4 --minSuppList 'no' --maxgap 60 --maxlength 2 --outDir ~/spm_analysis
+```
 
 The script first calls a database, performs data preprocessing, mines for patterns, and then creates the feature vectors formatted for logit modeling. The feature vectors included temporal patterns identified by SPM, age, and static variables such as ethnicity.
 
