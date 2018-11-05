@@ -1,0 +1,172 @@
+---
+title: "Generate sequential patterns"
+author: "Nova F. Smedley"
+date: "`r Sys.Date()`"
+output: 
+  prettydoc::html_pretty:
+    theme: leonids
+    highlight: github
+vignette: >
+  %\VignetteIndexEntry{Generate sequential patterns}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+The package `gbmSPM` can be used to do the exact analysis pipeline used in the paper, 
+
+Smedley, Nova F., Benjamin M. Ellingson, Timothy F. Cloughesy, and William Hsu. "Longitudinal Patterns in Clinical and Imaging Measurements Predict Residual Survival in Glioblastoma Patients." *Scientific reports* 8, no. 1 (2018): 14429.
+
+See also Supplemental Materials.
+
+## Vignette Info
+
+This vignette shows how temporal patterns can be found with sequential pattern mining (SPM) using dummy patient data and depends on the `arulesSequences` R package.
+
+
+## Example
+1. **Set the `arulesSequences` parameters**
+
+    * `minSupp` min. percentage of patients, i.e., sequences, with pattern
+    * `maxgap` max. time between CONSECUTIVE elements in sequence, i.e., max. days between visits 
+    * `maxlen` max. length of elements in sequence
+    * `maxsize` max. number of items in an element of a sequence
+
+
+
+    E.g., if min. support is 0.4, only patterns that occur in 40% of patients will be returned.
+
+    E.g., if max. length is 2, max. gap is 60, patterns are created where there is a sequence of up to 2 visits, with up to 60 days between consecutive visits
+
+    E.g., if max. size is 2, there can be up to two events included in a single visit.
+
+    ```{r, message = FALSE}
+    library(gbmSpm)
+
+    minSupp <- 0.4
+    maxgap <- 60
+    maxlen <- 2
+    maxsize <- 2
+    ```
+
+1. **Set the gbmSPM parameters**
+
+    * `tType` the type of tumor volume measurment to use in generating patterns
+    * `chemoOverlap` whether to only use events during the course of chemotherapy (only really relevant for descriptive statistics)
+    * `suppList` can subset other sets patterns based on level of min. support specified in this list (reduces duplicated work)
+
+    E.g., if `tType` is 'rate', rate changes will be calculated from tumor volumes and used
+
+    ```{r}
+    tType <- 'rate'
+    chemoOverlap <- F
+    suppList <- seq(minSupp, 0.4, .05)
+    ```
+
+
+1. **Setup experiment to save generated patterns and metadata**
+
+    We wil put the created features in '~/gbm_spm_example', but this can be changed.
+
+    ```{r, message = FALSE, results = "hide"}
+    outputDir <- '~/gbm_spm_example'
+    spmDir <- file.path(outputDir,'spm')
+    logDir <- file.path(outputDir,'spm_logs')
+    lapply(c(outputDir, spmDir, logDir), function(i) ifelse(!dir.exists(i), dir.create(i, showWarnings = F, recursive = T), F) )
+    ```
+
+    Log experiment:
+
+    ```{r, message = FALSE,}
+    # if you want to save the log file, uncomment
+    # logfn <- file(file.path(logDir,paste0(paste0('g',maxgap,'l',maxlen,'z',maxsize),'_',
+    #                                       getVolTypeName(tType),'.log')), open='wt')
+    #
+    # sink(logfn, type='output', split=T)
+
+    cat(format(Sys.Date(), format="%Y.%m.%d"), '\n')
+    cat('maxgap: ', maxgap, '\n')
+    cat('maxlen: ', maxlen, '\n')
+    cat('maxsize: ', maxsize, '\n')
+    cat('tumor vol variable type: ', getVolTypeName(tType), '\n\n')
+    ```
+
+1. **Load dummy data**
+
+    ```{r}
+    data("fake_data")
+    names(fake_data)
+    colnames(fake_data$person)
+    colnames(fake_data$demo)
+    colnames(fake_data$events)
+
+    # save tumor location and laterility strings before event cleaning
+    fake_tumorInfo <- fake_data$events
+    fake_demo <- fake_data$demo
+
+    fake_data$events <- cleanData(fake_data$events, tType)
+
+    cat('...',nrow(fake_data$events), " events left for SPM after cleaning", '\n')
+    ```
+
+1. **Prep data by collecting patient info for each event**
+
+    ```{r}
+    fake_data <- merge(fake_data$events, fake_data$person, by='iois', all.x=T)
+    colnames(fake_data)
+
+    # prep for each event, since age does change
+    fake_data <- prepDemographics(fake_data, fake_demo)
+    colnames(fake_data)
+
+    # get survival labels, these also change
+    fake_data <- prepSurvivalLabels(fake_data)
+    colnames(fake_data)
+
+    # get first tumor location
+    fake_data <- getTumorLocation(fake_data, fake_tumorInfo)
+    colnames(fake_data)
+
+    ```
+
+1. **Run spm**
+
+    If you want to save the patterns and use in logit modeling:
+
+    ```{r}
+    runSPM(event = fake_data,
+           suppList = suppList,
+           maxgap = maxgap,
+           maxlen = maxlen,
+           maxsize = maxsize,
+           tType = tType,
+           outputDir = spmDir)
+    ```
+
+    otherwise:
+
+    ```{r}
+    # spm
+    pSPM <- getSeqPatterns(event = fake_data,
+                           transFilename = file.path(outputDir, 'example_transactions.txt'),
+                           createT = T,
+                           support = minSupp,
+                           maxgap = maxgap,
+                           maxlen = maxlen,
+                           maxsize = maxsize)
+    pSPM$patterns <- as(pSPM$freqseq, "data.frame")
+    pSPM$patterns$sequence <- as.character(pSPM$patterns$sequence)
+
+    # days when pattern occur
+    patternDays <- findPatternDays(pSPM$patterns, pSPM$data, maxgap=maxgap)
+
+    # feature vectors to supply to logits
+    feat_vecs <- getFeatureVectors(patternDays, events=pSPM$data)
+    ```
+

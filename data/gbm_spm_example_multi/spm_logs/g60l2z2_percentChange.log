@@ -1,0 +1,87 @@
+2018.11.02 
+maxgap:  60 
+maxlen:  2 
+maxsize:  2 
+tumor vol variable type:  percentChange 
+
+
+
+ Cleaning data...
+
+... 33  events were removed due to empty agent_details 
+... 3  events were removed due to agent_detail = "-" 
+... 0  events were removed due to mental status = 9 
+... 0  events were removed due to overallNeuro = 3 
+... 1097 events were removed due to event being prior to first radiation or no radiation events in patient 
+... 1 patient(s) were removed 
+... keep event agents: 
+KPS
+measurement
+mentalStatus
+neuroFunc
+overallNeuro
+Radiation
+Surgery
+... 194 events were removed due to no events in agents of interest 
+... 0 patients were removed due to no events in agents of interest 
+...these iois were removed:integer(0)
+
+... 1593  events left for SPM after cleaning 
+parsing tumor locations...
+...patients without tumor location :   
+
+
+ Using spm patterns with percentChange ...
+...creating:  /home/nova/gbm_spm_example/spm/transactions_percentChange.txt 
+
+
+ Creating transactions file...
+
+... file written to:  /home/nova/gbm_spm_example/spm/transactions_percentChange.txt
+
+ Performing SPM...
+
+
+parameter specification:
+support : 0.2
+maxsize :   2
+maxlen  :   2
+maxgap  :  60
+
+algorithmic control:
+bfstype  : FALSE
+verbose  :  TRUE
+summary  : FALSE
+tidLists :  TRUE
+
+preprocessing ... 1 partition(s), 0.03 MB [0.014s]
+mining transactions ... 0 MB [0.008s]
+reading sequences ... [0.02s]
+
+total elapsed time: 0.042s
+
+
+ Getting spm events data ready for logit...
+...creating pattern and feature files in:  /home/nova/gbm_spm_example/spm/sup0.2g60l2z2 
+
+
+ Searching for sequence patterns in events...
+
+10 ... 0.04849935 
+20 ... 0.1090207 
+... finished search...
+Time difference of 0.1092319 secs
+... testing...
+... number of unmatched frequent sequences support FROM TIDLIST (my results vs. arulesSequences, should match):  0
+... setting NA values to 0 -- will return warning if non-spm features are NA beforehand
+
+ ...subset data based on different support thresholds...
+......supp:  0.25 
+
+... setting NA values to 0 -- will return warning if non-spm features are NA beforehand......supp:  0.3 
+
+... setting NA values to 0 -- will return warning if non-spm features are NA beforehand......supp:  0.35 
+
+... setting NA values to 0 -- will return warning if non-spm features are NA beforehand......supp:  0.4 
+
+... setting NA values to 0 -- will return warning if non-spm features are NA beforehand

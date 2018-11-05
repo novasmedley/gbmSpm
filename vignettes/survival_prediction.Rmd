@@ -1,0 +1,224 @@
+---
+title: "Predicting residual survival"
+author: "Nova F. Smedley"
+date: "`r Sys.Date()`"
+output: 
+  prettydoc::html_pretty:
+    theme: leonids
+    highlight: github
+vignette: >
+  %\VignetteIndexEntry{Predicting residual survival}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+The package `gbmSPM` can be used to do the exact analysis pipeline used in the paper, 
+
+Smedley, Nova F., Benjamin M. Ellingson, Timothy F. Cloughesy, and William Hsu. "Longitudinal Patterns in Clinical and Imaging Measurements Predict Residual Survival in Glioblastoma Patients." *Scientific reports* 8, no. 1 (2018): 14429.
+
+See also Supplemental Materials.
+
+## Vignette Info
+
+This vignette shows how temporal features and patient covariates are used in predicing residual survival. This depends on the `glmnet` and `caret` R packages, uses dummy patient data, and follows the other vignette: "Generate sequential patterns."
+
+
+## Example
+
+
+
+1. **Set the cross-validation and logistic regression parameters**
+
+    * seed - for data partitioning
+    * nFolds - number of cross-validation folds
+    * cvReps - number of times to repeat cross-validation
+    * metric - for selecting hyperparameters
+    * lasso - whether to use lasso regularization (lamba)
+    * llength - number of lambas to consider
+    * lmax - the max. lamba to consider
+ 
+    ```{r,  message = FALSE}
+    library(gbmSpm)
+
+    seed <- 9
+    nFolds <- 2
+    cvReps <- 2
+    metric <- 'rocAUC'
+    lasso <- TRUE
+    llength <- 100
+    lmax <- 0.2
+    ```
+
+1. **Set the parameters used to generate features**
+    
+    Previously, we found temporal features via sequential pattern mining (SPM) with `arulesSequences` and placed the patterns in "~/gbm_spm_example". We will also put logit results there as well.
+
+    ```{r, results = "hide"}
+    
+    # previously created spm patterns parameters
+    tType <- 'rate'
+    maxgap <- 60
+    maxlength <- 2
+    outdir <- '~/gbm_spm_example'
+    dataFolder <- 'sup0.4g60l2z2' # previously created spm patterns
+    dataFile <- file.path(dataFolder, 'featureVectors_rateChange.rds') # data input file
+
+    # output dirs for logit models
+    prefix <- 'logits'
+    logitFolder <- file.path(outdir, prefix, dataFolder)
+    ifelse(!dir.exists(logitFolder), dir.create(logitFolder, recursive = T), F) 
+    
+    # expected ids of train and test, if doesn't exist, will create it
+    dataPartitions <- file.path(outdir, 'train_test_partitions.rds') 
+
+    # input path, aka spm data folder
+    dataPath <- file.path(outdir,'spm',dataFile) 
+
+    ```
+    
+    Log the experiment:
+    
+    ```{r}
+    logfn <- file(file.path(logitFolder,
+                        paste0(format(Sys.Date(), format="%Y.%m.%d"),
+                               '_logit_',getVolTypeName(tType),'.log')),
+              open='wt')
+
+    sink(logfn, type='output', split=T)
+    
+    cat(format(Sys.Date(), format="%Y.%m.%d"), '\n')
+    cat('pattern dataset:', dataFile, '\n')
+    cat('tumor vol variable type: ', getVolTypeName(tType), '\n')
+    cat('seed: ', seed, '\n')
+    cat('nFolds: ', nFolds, '\n')
+    cat('cvReps: ', cvReps, '\n')
+    
+    if (lasso) {
+      cat('lambda length: ', llength, '\n\n')
+      cat('lambda max: ', lmax, '\n\n')
+    }
+    ```
+
+1. **Create partitions on cleaned data**
+
+    Data partitioning depends on the fully cleaned dataset and ensures the exact same clinical visits are maintained in training or testing, regardless of  any further feature engineering methods.
+    
+    Load original data:
+    ```{r}
+    data("fake_data")
+    names(fake_data)
+    colnames(fake_data$person)
+    colnames(fake_data$demo)
+    colnames(fake_data$events)
+    
+    survData <- fake_data$person
+    fake_demo <- fake_data$demo
+    ```
+    
+    Get the pool of visits for partitioning:
+   
+    ```{r}
+    # 'c'  tType does not remove initial imaging volumes 
+    # (e.g., rate change needs two visits, the very first one is ignores)
+    fake_data$events <- cleanData(fake_data$events, tType = 'c') 
+    
+    fake_data <- merge(fake_data$events, fake_data$person, by='iois', all.x=T)
+    
+    # need gender info
+    fake_data <- prepDemographics(fake_data, fake_demo) 
+    
+    # get survival labels, these also change
+    fake_data <- prepSurvivalLabels(fake_data)
+    
+    # clinical ids
+    fake_data$id <- paste0(fake_data$iois,'.',fake_data$eventID) 
+    
+    # create train and test partitions
+    # and attempt to maintain gender and survival balance in both parts
+    part.ids <- getTrainTestPartition(data = fake_data,
+                                       database = NULL, 
+                                       personTable = NULL,
+                                       survData = survData,
+                                       seed = seed,
+                                       verbose = T)
+    names(part.ids)
+    ```
+
+1. **Read in features for prediction task**
+    
+    Get the features generated from SPM:
+    
+    ```{r}
+    # features and labels for each clinical visit
+    data <- readRDS(dataPath) 
+    names <- colnames(data)
+    data <- data.frame(id=row.names(data),data)
+    colnames(data) <- c('id',names)
+    cat('...overall samples: ', nrow(data), '\n')
+    ```
+    
+    Convert tumor laterality and tumor location to dummy variables:
+    ```{r}
+    data <- prepLaterality(data) 
+    data <- prepLocation(data)
+    ```
+    
+    Remove clinical visits with no history of length max. gap:
+    ```{r}
+    data <- removeVisits(data, 
+                         maxgap = maxgap, 
+                         maxlength = maxlength, 
+                         tType = tType, 
+                         save = F, 
+                         outDir = logitFolder)
+    ```
+    
+    Remove unwanted features and labels that should not be in training data for `glmnet`:
+    
+    ```{r}
+    labels <- getClassLabels()
+    needToRemove <- c('id','iois','eventID', # remove ids
+                      labels, # remove labels
+                      'IDH1') # not interested
+    ```
+
+1. **Logistic regression**
+    
+    Set labels and formula:
+    ```{r}
+
+    ln <- labels[1] # just do one
+    ln
+    
+    form <- as.formula(paste0(ln,'~.'))
+    form
+    ```
+    
+    Set training data and do cross-validation with refitting with the best performing lambda:
+    
+    ```{r}
+    data$id <- as.character(data$id)
+    data <- data[data$id %in% part.ids$train,] 
+
+    aucs <- runCV(data = data,
+              formula = form,
+              lasso = TRUE,
+              llength = llength,
+              lmax = lmax,
+              labelName = ln,
+              needToRemove = needToRemove,
+              metric = metric,
+              seed = seed,
+              folds = nFolds,
+              cvReps = cvReps,
+              createModelMatrix = FALSE)
+    ```
+

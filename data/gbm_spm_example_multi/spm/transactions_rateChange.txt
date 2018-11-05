@@ -1,0 +1,1500 @@
+1	521	1	kpsInitial
+1	746	1	kpsDECR
+1	1061	1	kpsDECR
+1	1091	1	mentalStatus0
+1	1166	1	neuroFunc1
+1	1376	1	kpsINCR
+1	1391	1	neuroFunc3
+1	1466	1	kpsINCR
+1	1481	1	tumorVolRateChange:[   -1.48 to   12.65)
+1	1511	1	kpsDECR
+1	1646	1	tumorVolRateChange:[  -53.53 to  -14.88)
+1	1706	1	mentalStatus0
+1	1801	1	Surgery
+1	2006	1	kpsUNCH
+1	2051	1	mentalStatus0
+1	2291	1	kpsINCR
+1	2396	1	mentalStatus1
+1	2441	2	tumorVolRateChange:[   -1.48 to   12.65)	mentalStatus0
+1	2606	1	kpsUNCH
+1	2666	1	mentalStatus0
+1	2696	1	mentalStatus0
+2	1	1	mentalStatus0
+2	76	1	neuroFunc2
+2	91	1	neuroFunc1
+2	106	1	tumorVolRateChange:[  126.04 to  434.16)
+2	136	1	tumorVolRateChange:[ -364.04 to -141.52)
+2	201	1	Surgery
+2	226	1	kpsInitial
+2	271	1	neuroFunc1
+2	316	1	tumorVolRateChange:[  -14.88 to   -1.48)
+2	346	1	neuroFunc2
+2	401	2	Surgery	Radiation
+2	466	1	neuroFunc1
+2	496	1	kpsDECR
+2	586	1	neuroFunc1
+2	601	1	tumorVolRateChange:[   12.65 to   47.04)
+2	646	1	tumorVolRateChange:[ -141.52 to  -53.53)
+2	676	1	tumorVolRateChange:[  434.16 to 5616.74]
+2	801	1	Surgery
+2	826	1	kpsINCR
+2	856	1	tumorVolRateChange:[ -364.04 to -141.52)
+2	886	1	neuroFunc1
+2	916	1	neuroFunc2
+2	976	1	neuroFunc1
+3	1466	1	Surgery
+3	1621	1	mentalStatus0
+3	1936	1	kpsInitial
+3	1996	1	neuroFunc0
+3	2101	1	kpsINCR
+3	2466	1	Surgery
+3	2476	1	mentalStatus1
+3	2506	1	mentalStatus1
+3	3526	1	kpsUNCH
+3	3586	1	kpsDECR
+3	3856	1	tumorVolRateChange:[  -14.88 to   -1.48)
+3	3866	1	Surgery
+3	4096	1	mentalStatus0
+3	4306	1	tumorVolRateChange:[   -1.48 to   12.65)
+3	4321	1	mentalStatus0
+4	1066	1	kpsInitial
+4	1171	1	tumorVolRateChange:[-3053.63 to -364.04)
+4	1216	1	neuroFunc3
+4	1606	1	neuroFunc0
+4	1621	1	tumorVolRateChange:[   12.65 to   47.04)
+4	1801	1	Surgery
+4	2001	1	Surgery
+4	2146	1	mentalStatus0
+4	2431	1	tumorVolRateChange:[  -14.88 to   -1.48)
+4	2461	1	mentalStatus0
+4	2521	1	tumorVolRateChange:[   47.04 to  126.04)
+4	2581	1	tumorVolRateChange:[  126.04 to  434.16)
+4	2716	1	tumorVolRateChange:[ -364.04 to -141.52)
+4	2761	1	tumorVolRateChange:[  -53.53 to  -14.88)
+4	2791	1	tumorVolRateChange:[  -14.88 to   -1.48)
+4	2801	1	Surgery
+4	2956	1	tumorVolRateChange:[   12.65 to   47.04)
+4	3016	1	tumorVolRateChange:[   47.04 to  126.04)
+4	3166	1	tumorVolRateChange:[  -53.53 to  -14.88)
+4	3201	1	Radiation
+4	3226	1	tumorVolRateChange:[  -14.88 to   -1.48)
+5	3161	1	Radiation
+5	3346	1	mentalStatus0
+5	3721	1	kpsInitial
+6	1156	1	Surgery
+6	1306	1	mentalStatus1
+6	1441	1	neuroFunc1
+6	1456	1	mentalStatus0
+6	1636	1	mentalStatus1
+6	1756	1	Radiation
+6	1846	1	mentalStatus0
+6	2026	1	mentalStatus0
+6	2221	1	mentalStatus0
+6	2566	1	mentalStatus1
+6	2581	1	kpsInitial
+7	3406	1	mentalStatus0
+8	131	1	kpsInitial
+8	146	1	kpsUNCH
+8	236	1	neuroFunc3
+8	296	1	mentalStatus0
+8	386	1	neuroFunc3
+8	596	1	neuroFunc1
+8	1151	1	kpsUNCH
+8	1201	1	Surgery
+8	1241	1	neuroFunc1
+8	1401	1	Surgery
+8	1436	1	neuroFunc1
+8	1781	1	neuroFunc2
+8	2126	1	neuroFunc2
+8	2336	1	neuroFunc1
+8	2401	1	Surgery
+8	2711	1	neuroFunc1
+8	2816	1	neuroFunc2
+8	2831	1	neuroFunc2
+9	406	1	mentalStatus0
+9	436	1	kpsInitial
+9	451	1	neuroFunc0
+9	466	1	neuroFunc1
+9	541	2	mentalStatus0	neuroFunc1
+9	586	1	kpsINCR
+9	601	2	mentalStatus2	Radiation
+9	646	2	mentalStatus1	neuroFunc1
+9	661	1	mentalStatus0
+9	676	1	mentalStatus1
+10	1276	1	mentalStatus0
+10	1306	1	mentalStatus1
+10	1441	1	mentalStatus0
+10	1621	1	mentalStatus0
+10	1981	1	mentalStatus0
+10	2386	1	kpsInitial
+10	2401	2	mentalStatus0	Radiation
+10	2416	1	mentalStatus0
+10	2521	1	mentalStatus0
+10	2716	1	mentalStatus0
+10	2801	1	Surgery
+10	2881	1	mentalStatus0
+10	2941	1	kpsUNCH
+10	2986	1	kpsUNCH
+11	2056	1	mentalStatus0
+11	2191	1	mentalStatus0
+11	2401	1	kpsInitial
+11	2461	1	tumorVolRateChange:[   12.65 to   47.04)
+11	2521	1	neuroFunc3
+11	2671	1	mentalStatus0
+11	2716	1	tumorVolRateChange:[  126.04 to  434.16)
+11	2896	1	tumorVolRateChange:[-3053.63 to -364.04)
+11	2971	1	tumorVolRateChange:[  126.04 to  434.16)
+11	3001	1	kpsINCR
+11	3136	1	mentalStatus0
+11	3201	1	Surgery
+11	3401	1	Radiation
+11	3406	1	kpsINCR
+11	3496	1	neuroFunc1
+11	3721	1	kpsDECR
+11	3856	1	mentalStatus1
+11	3946	1	tumorVolRateChange:[  -14.88 to   -1.48)
+11	3976	1	mentalStatus0
+11	4036	1	kpsUNCH
+12	1006	1	neuroFunc3
+12	1051	1	kpsInitial
+12	1111	1	neuroFunc3
+12	1216	1	mentalStatus0
+12	1291	1	mentalStatus0
+12	1426	1	kpsDECR
+12	1561	1	mentalStatus0
+12	1681	1	neuroFunc1
+12	1741	1	mentalStatus0
+12	1786	1	tumorVolRateChange:[   -1.48 to   12.65)
+12	1906	1	mentalStatus0
+12	2131	1	mentalStatus0
+12	2236	1	tumorVolRateChange:[   47.04 to  126.04)
+12	2401	1	neuroFunc2
+12	2596	1	tumorVolRateChange:[ -364.04 to -141.52)
+12	2806	1	mentalStatus0
+13	601	1	neuroFunc2
+13	721	1	neuroFunc3
+13	751	1	mentalStatus0
+13	801	1	Surgery
+13	841	2	neuroFunc1	tumorVolRateChange:[-3053.63 to -364.04)
+13	871	1	tumorVolRateChange:[ -141.52 to  -53.53)
+13	886	2	kpsInitial	neuroFunc1
+13	901	1	neuroFunc1
+13	916	1	tumorVolRateChange:[   47.04 to  126.04)
+13	946	2	kpsSigDECR	tumorVolRateChange:[ -141.52 to  -53.53)
+13	991	1	neuroFunc1
+13	1001	1	Surgery
+13	1006	1	kpsSigDECR
+14	2971	1	tumorVolRateChange:[  126.04 to  434.16)
+14	3046	1	tumorVolRateChange:[-3053.63 to -364.04)
+14	3106	1	kpsInitial
+14	3301	1	tumorVolRateChange:[   47.04 to  126.04)
+14	3406	1	kpsUNCH
+14	3671	1	Radiation
+14	3706	1	neuroFunc2
+14	3976	1	mentalStatus0
+14	3991	1	tumorVolRateChange:[  -53.53 to  -14.88)
+14	4096	1	kpsDECR
+14	4201	1	kpsINCR
+14	4231	1	kpsUNCH
+15	796	1	neuroFunc1
+15	931	1	mentalStatus1
+15	946	1	mentalStatus0
+15	991	1	neuroFunc2
+15	1006	1	mentalStatus0
+15	1351	1	mentalStatus1
+15	1381	1	kpsInitial
+15	1516	1	mentalStatus0
+15	1546	1	neuroFunc0
+15	1636	1	mentalStatus0
+15	1711	1	Radiation
+15	1726	1	mentalStatus0
+16	1606	2	mentalStatus0	neuroFunc1
+16	1621	1	kpsInitial
+16	1636	1	kpsUNCH
+16	1726	1	kpsINCR
+16	1741	1	kpsDECR
+16	1786	1	kpsINCR
+16	1921	1	neuroFunc1
+16	1981	1	tumorVolRateChange:[ -141.52 to  -53.53)
+16	1996	1	tumorVolRateChange:[  434.16 to 5616.74]
+16	2116	1	tumorVolRateChange:[  434.16 to 5616.74]
+16	2206	1	tumorVolRateChange:[-3053.63 to -364.04)
+16	2251	1	mentalStatus0
+16	2311	1	tumorVolRateChange:[ -141.52 to  -53.53)
+16	2416	1	tumorVolRateChange:[  434.16 to 5616.74]
+16	2446	1	tumorVolRateChange:[-3053.63 to -364.04)
+16	2461	1	neuroFunc0
+16	2476	1	kpsDECR
+17	811	1	neuroFunc2
+17	856	1	mentalStatus0
+17	871	2	mentalStatus0	neuroFunc0
+17	931	1	mentalStatus1
+17	946	1	mentalStatus0
+17	991	2	neuroFunc1	kpsInitial
+17	1006	1	mentalStatus1
+17	1051	2	neuroFunc0	mentalStatus0
+17	1096	1	mentalStatus0
+17	1171	1	neuroFunc1
+17	1201	1	mentalStatus1
+17	1231	1	tumorVolRateChange:[  -14.88 to   -1.48)
+18	186	1	Surgery
+18	196	1	kpsInitial
+18	226	1	tumorVolRateChange:[  434.16 to 5616.74]
+18	331	1	kpsINCR
+18	391	1	mentalStatus0
+18	436	1	mentalStatus0
+18	496	2	kpsUNCH	tumorVolRateChange:[ -141.52 to  -53.53)
+18	511	1	tumorVolRateChange:[ -364.04 to -141.52)
+18	541	2	mentalStatus0	tumorVolRateChange:[  434.16 to 5616.74]
+18	571	1	kpsUNCH
+18	586	1	Surgery
+18	646	1	tumorVolRateChange:[ -364.04 to -141.52)
+18	676	1	neuroFunc1
+18	706	1	mentalStatus0
+18	721	1	tumorVolRateChange:[  434.16 to 5616.74]
+18	736	1	kpsUNCH
+18	766	1	kpsUNCH
+18	786	1	Surgery
+18	826	1	kpsDECR
+18	841	1	kpsINCR
+18	856	2	kpsUNCH	tumorVolRateChange:[-3053.63 to -364.04)
+18	886	2	mentalStatus0	tumorVolRateChange:[  434.16 to 5616.74]
+18	961	1	kpsDECR
+18	976	1	tumorVolRateChange:[-3053.63 to -364.04)
+18	986	1	Radiation
+18	1006	1	kpsINCR
+18	1021	1	tumorVolRateChange:[  -53.53 to  -14.88)
+19	136	1	neuroFunc3
+19	151	1	kpsInitial
+19	211	1	mentalStatus0
+19	226	1	kpsSigINCR
+19	316	1	kpsSigDECR
+19	326	1	Surgery
+19	331	2	kpsSigINCR	mentalStatus0
+19	361	1	mentalStatus0
+19	436	1	kpsINCR
+19	526	1	Surgery
+19	556	1	mentalStatus0
+19	586	1	mentalStatus0
+19	706	2	kpsDECR	mentalStatus0
+19	726	1	Surgery
+19	766	1	kpsDECR
+19	841	1	kpsUNCH
+19	886	1	tumorVolRateChange:[   47.04 to  126.04)
+19	946	1	neuroFunc1
+19	961	1	kpsINCR
+19	976	1	kpsUNCH
+19	991	1	tumorVolRateChange:[   12.65 to   47.04)
+20	2191	1	kpsInitial
+20	2251	1	kpsSigDECR
+20	2431	1	neuroFunc2
+20	3841	1	kpsSigINCR
+20	3961	3	Radiation	Surgery	neuroFunc1
+21	376	1	kpsInitial
+21	436	1	kpsDECR
+21	541	1	mentalStatus0
+21	666	1	Surgery
+21	811	1	kpsUNCH
+21	931	1	mentalStatus0
+21	976	2	kpsINCR	mentalStatus1
+21	1036	1	kpsDECR
+21	1266	1	Radiation
+21	1366	1	kpsINCR
+21	1396	1	kpsSigDECR
+21	1576	1	kpsSigINCR
+21	1801	1	mentalStatus0
+21	1936	1	kpsUNCH
+21	2026	1	kpsDECR
+21	2041	1	kpsINCR
+21	2066	1	Surgery
+21	2146	1	kpsUNCH
+21	2206	1	tumorVolRateChange:[  -53.53 to  -14.88)
+22	1876	1	kpsInitial
+22	2176	1	neuroFunc0
+22	2266	1	neuroFunc2
+22	2296	1	neuroFunc0
+22	2311	1	neuroFunc1
+22	2386	1	tumorVolRateChange:[  -53.53 to  -14.88)
+22	2491	1	neuroFunc2
+22	2596	1	tumorVolRateChange:[  -53.53 to  -14.88)
+22	2836	1	kpsDECR
+22	2896	1	neuroFunc0
+22	2956	1	kpsSigDECR
+22	3241	1	tumorVolRateChange:[  126.04 to  434.16)
+22	3361	1	kpsSigINCR
+22	3406	1	tumorVolRateChange:[-3053.63 to -364.04)
+22	3436	1	tumorVolRateChange:[  126.04 to  434.16)
+22	3601	1	Surgery
+22	3616	1	kpsUNCH
+22	3801	1	Surgery
+22	3811	1	kpsDECR
+22	4051	1	neuroFunc1
+23	1741	1	mentalStatus0
+23	1816	1	tumorVolRateChange:[  126.04 to  434.16)
+23	1966	1	mentalStatus0
+23	2111	1	Radiation
+23	2176	1	kpsInitial
+23	2506	1	tumorVolRateChange:[  -53.53 to  -14.88)
+23	2521	1	tumorVolRateChange:[  434.16 to 5616.74]
+23	2731	1	tumorVolRateChange:[  -53.53 to  -14.88)
+23	2851	1	tumorVolRateChange:[   -1.48 to   12.65)
+23	3016	1	tumorVolRateChange:[  126.04 to  434.16)
+23	3061	1	tumorVolRateChange:[-3053.63 to -364.04)
+23	3211	1	mentalStatus1
+23	3286	1	tumorVolRateChange:[   47.04 to  126.04)
+23	3361	1	neuroFunc1
+23	3511	1	neuroFunc0
+23	3961	1	neuroFunc1
+23	4561	1	tumorVolRateChange:[   -1.48 to   12.65)
+23	4726	1	tumorVolRateChange:[ -141.52 to  -53.53)
+23	4771	1	tumorVolRateChange:[  126.04 to  434.16)
+24	1	1	kpsInitial
+24	16	4	neuroFunc0	tumorVolRateChange:[ -364.04 to -141.52)	kpsDECR	mentalStatus0
+24	31	3	neuroFunc0	kpsUNCH	mentalStatus0
+24	46	1	kpsDECR
+24	61	2	mentalStatus1	neuroFunc1
+24	76	3	tumorVolRateChange:[  -14.88 to   -1.48)	kpsINCR	mentalStatus0
+24	151	3	tumorVolRateChange:[   47.04 to  126.04)	kpsUNCH	neuroFunc1
+24	166	2	tumorVolRateChange:[  126.04 to  434.16)	mentalStatus0
+24	181	4	tumorVolRateChange:[-3053.63 to -364.04)	kpsDECR	neuroFunc0	mentalStatus0
+24	196	3	kpsINCR	tumorVolRateChange:[   47.04 to  126.04)	neuroFunc1
+24	201	1	Surgery
+24	211	3	tumorVolRateChange:[ -141.52 to  -53.53)	neuroFunc1	mentalStatus0
+25	316	1	neuroFunc2
+25	391	1	mentalStatus0
+25	541	1	kpsInitial
+25	556	1	kpsSigINCR
+25	766	1	mentalStatus0
+25	991	1	neuroFunc2
+25	1081	2	kpsDECR	Radiation
+25	1216	1	mentalStatus0
+25	1291	1	kpsSigDECR
+25	1321	1	mentalStatus0
+25	1381	1	tumorVolRateChange:[   47.04 to  126.04)
+25	1481	1	Surgery
+25	1576	1	kpsSigINCR
+25	1696	1	kpsSigINCR
+25	1711	1	neuroFunc2
+25	1726	1	mentalStatus0
+25	1741	1	mentalStatus0
+25	1786	1	neuroFunc1
+25	1881	1	Surgery
+26	1036	2	mentalStatus0	neuroFunc1
+26	1951	1	kpsInitial
+26	2036	2	Radiation	Surgery
+26	2536	1	mentalStatus0
+26	2806	1	tumorVolRateChange:[   -1.48 to   12.65)
+26	2971	1	tumorVolRateChange:[  -14.88 to   -1.48)
+26	3046	1	tumorVolRateChange:[ -141.52 to  -53.53)
+26	3211	1	neuroFunc1
+26	3241	1	neuroFunc3
+26	3286	1	mentalStatus0
+26	3466	1	mentalStatus1
+26	3541	1	tumorVolRateChange:[   47.04 to  126.04)
+26	3631	1	neuroFunc1
+26	3661	1	tumorVolRateChange:[ -364.04 to -141.52)
+26	3766	2	tumorVolRateChange:[ -364.04 to -141.52)	neuroFunc2
+26	4066	1	mentalStatus0
+26	4276	1	tumorVolRateChange:[   12.65 to   47.04)
+26	4366	1	tumorVolRateChange:[ -364.04 to -141.52)
+26	4381	1	tumorVolRateChange:[   -1.48 to   12.65)
+26	4516	1	kpsUNCH
+26	4531	1	neuroFunc0
+27	2586	1	Surgery
+27	2821	1	neuroFunc1
+27	2851	1	neuroFunc1
+27	3076	1	neuroFunc1
+27	3181	1	neuroFunc1
+27	3241	1	neuroFunc1
+27	4006	1	neuroFunc1
+27	4156	1	neuroFunc3
+27	4186	1	Radiation
+27	4831	1	kpsInitial
+28	1771	1	Surgery
+28	1831	1	mentalStatus0
+28	2071	1	tumorVolRateChange:[  434.16 to 5616.74]
+29	1	2	Surgery	neuroFunc1
+29	16	2	kpsInitial	neuroFunc1
+29	91	2	neuroFunc0	mentalStatus1
+29	106	1	tumorVolRateChange:[  126.04 to  434.16)
+29	121	1	neuroFunc3
+29	151	1	mentalStatus0
+29	166	2	kpsDECR	neuroFunc0
+29	181	1	tumorVolRateChange:[ -141.52 to  -53.53)
+29	196	1	neuroFunc1
+29	201	1	Radiation
+29	211	1	tumorVolRateChange:[   47.04 to  126.04)
+29	256	2	kpsUNCH	neuroFunc2
+29	301	1	neuroFunc1
+29	316	2	kpsINCR	tumorVolRateChange:[   -1.48 to   12.65)
+29	331	1	tumorVolRateChange:[ -141.52 to  -53.53)
+29	376	1	neuroFunc1
+29	391	1	tumorVolRateChange:[  434.16 to 5616.74]
+29	401	1	Surgery
+29	406	2	kpsDECR	neuroFunc0
+29	421	1	neuroFunc1
+29	451	1	neuroFunc1
+29	466	1	neuroFunc1
+29	481	1	neuroFunc1
+29	496	1	tumorVolRateChange:[ -364.04 to -141.52)
+30	1246	1	neuroFunc0
+30	1291	1	kpsInitial
+30	1336	1	mentalStatus0
+30	1381	1	neuroFunc3
+30	1386	1	Surgery
+30	1561	1	mentalStatus0
+30	1576	1	mentalStatus0
+30	1591	1	neuroFunc1
+30	1786	2	mentalStatus0	tumorVolRateChange:[  -53.53 to  -14.88)
+30	1801	1	mentalStatus0
+30	2011	1	mentalStatus0
+30	2101	1	mentalStatus0
+30	2146	1	mentalStatus1
+30	2191	1	tumorVolRateChange:[   12.65 to   47.04)
+30	2206	1	mentalStatus0
+31	1041	1	kpsInitial
+31	1116	1	mentalStatus0
+31	1281	1	mentalStatus0
+31	1341	1	mentalStatus0
+32	201	1	Surgery
+32	241	1	mentalStatus2
+32	301	1	mentalStatus1
+32	361	1	mentalStatus1
+32	401	1	Radiation
+32	406	1	mentalStatus0
+32	541	1	mentalStatus0
+32	616	1	neuroFunc2
+32	661	1	neuroFunc1
+32	796	1	kpsInitial
+32	1126	1	tumorVolRateChange:[  434.16 to 5616.74]
+32	1291	2	mentalStatus0	tumorVolRateChange:[ -364.04 to -141.52)
+32	1381	1	mentalStatus0
+32	1441	1	mentalStatus0
+32	1471	1	mentalStatus0
+32	1576	1	mentalStatus2
+32	1601	1	Surgery
+32	1606	1	mentalStatus0
+32	1621	1	mentalStatus1
+33	1	1	Surgery
+33	16	1	kpsInitial
+33	151	1	kpsINCR
+33	166	1	tumorVolRateChange:[  434.16 to 5616.74]
+33	181	1	neuroFunc1
+33	211	2	tumorVolRateChange:[-3053.63 to -364.04)	kpsINCR
+33	256	1	mentalStatus0
+33	286	1	kpsDECR
+33	301	1	kpsDECR
+33	316	1	kpsINCR
+33	331	1	tumorVolRateChange:[  -53.53 to  -14.88)
+33	346	1	kpsUNCH
+33	401	2	Surgery	Radiation
+33	406	2	kpsDECR	mentalStatus0
+33	451	1	kpsINCR
+33	481	1	kpsSigDECR
+34	2101	1	Surgery
+34	2311	1	kpsInitial
+34	3511	1	neuroFunc2
+34	3556	1	kpsINCR
+34	3886	1	tumorVolRateChange:[  -53.53 to  -14.88)
+34	4066	1	kpsUNCH
+34	4101	1	Radiation
+35	171	1	Surgery
+35	181	1	mentalStatus1
+35	196	1	mentalStatus1
+35	256	1	neuroFunc1
+35	301	1	tumorVolRateChange:[ -141.52 to  -53.53)
+35	331	1	kpsInitial
+35	376	1	neuroFunc1
+35	406	1	tumorVolRateChange:[   47.04 to  126.04)
+35	526	1	tumorVolRateChange:[  -53.53 to  -14.88)
+35	571	2	tumorVolRateChange:[ -364.04 to -141.52)	Surgery
+35	646	1	tumorVolRateChange:[   47.04 to  126.04)
+35	676	1	tumorVolRateChange:[ -364.04 to -141.52)
+35	721	1	kpsSigDECR
+35	771	1	Radiation
+35	826	2	tumorVolRateChange:[   12.65 to   47.04)	neuroFunc2
+35	901	1	mentalStatus0
+35	931	1	tumorVolRateChange:[  -53.53 to  -14.88)
+35	946	1	mentalStatus1
+35	1021	1	tumorVolRateChange:[  126.04 to  434.16)
+35	1036	1	mentalStatus0
+35	1051	1	neuroFunc1
+36	1441	1	kpsInitial
+36	1996	1	neuroFunc0
+36	2001	1	Surgery
+36	2056	1	kpsUNCH
+36	2131	1	mentalStatus0
+36	2201	1	Surgery
+36	2461	1	neuroFunc0
+36	2761	1	tumorVolRateChange:[   -1.48 to   12.65)
+36	2896	1	neuroFunc2
+36	3136	1	kpsDECR
+37	2066	1	Surgery
+37	2101	1	mentalStatus0
+37	2581	1	mentalStatus1
+38	211	1	mentalStatus0
+38	331	1	tumorVolRateChange:[   47.04 to  126.04)
+38	451	1	mentalStatus0
+38	511	1	kpsInitial
+38	631	1	tumorVolRateChange:[  -14.88 to   -1.48)
+38	766	1	tumorVolRateChange:[   -1.48 to   12.65)
+38	781	1	tumorVolRateChange:[  -14.88 to   -1.48)
+38	826	1	neuroFunc1
+38	841	1	tumorVolRateChange:[  126.04 to  434.16)
+38	991	1	tumorVolRateChange:[   12.65 to   47.04)
+38	1096	1	tumorVolRateChange:[ -141.52 to  -53.53)
+38	1156	1	mentalStatus0
+38	1171	1	mentalStatus0
+38	1186	1	kpsUNCH
+38	1441	1	mentalStatus0
+38	1456	1	tumorVolRateChange:[   12.65 to   47.04)
+38	1531	1	mentalStatus0
+38	1591	1	kpsDECR
+38	1741	1	mentalStatus0
+38	1771	1	Surgery
+38	1831	1	kpsINCR
+38	1861	1	mentalStatus0
+38	1971	1	Radiation
+38	1996	1	tumorVolRateChange:[   -1.48 to   12.65)
+38	2056	1	tumorVolRateChange:[  434.16 to 5616.74]
+38	2101	1	tumorVolRateChange:[-3053.63 to -364.04)
+38	2146	1	tumorVolRateChange:[ -364.04 to -141.52)
+38	2176	1	mentalStatus0
+38	2266	1	tumorVolRateChange:[  -14.88 to   -1.48)
+38	2281	1	kpsUNCH
+38	2341	1	tumorVolRateChange:[  434.16 to 5616.74]
+38	2431	1	tumorVolRateChange:[-3053.63 to -364.04)
+38	2491	1	tumorVolRateChange:[  434.16 to 5616.74]
+38	2596	2	kpsDECR	mentalStatus0
+39	886	1	neuroFunc3
+39	976	1	neuroFunc1
+39	1001	1	Radiation
+39	1006	2	kpsInitial	neuroFunc0
+39	1036	1	kpsINCR
+39	1096	2	neuroFunc1	tumorVolRateChange:[ -141.52 to  -53.53)
+39	1201	1	neuroFunc3
+39	1216	1	neuroFunc2
+39	1231	1	mentalStatus0
+39	1246	1	mentalStatus0
+40	1626	1	neuroFunc3
+40	1851	1	neuroFunc2
+40	1941	1	neuroFunc1
+40	2151	1	mentalStatus0
+40	2201	1	Radiation
+40	2401	1	Surgery
+41	631	2	kpsInitial	mentalStatus0
+42	16	1	neuroFunc1
+42	46	1	neuroFunc0
+42	61	2	kpsInitial	neuroFunc1
+42	76	1	kpsDECR
+42	91	2	neuroFunc2	kpsINCR
+42	106	1	kpsUNCH
+42	121	2	neuroFunc1	mentalStatus1
+42	136	1	neuroFunc1
+42	151	3	neuroFunc3	mentalStatus0	kpsDECR
+42	166	1	neuroFunc1
+42	181	1	neuroFunc0
+42	201	2	Surgery	Radiation
+42	211	1	mentalStatus0
+42	226	2	neuroFunc0	mentalStatus1
+42	256	2	kpsUNCH	neuroFunc1
+42	271	1	neuroFunc1
+42	286	1	neuroFunc3
+42	301	2	neuroFunc1	mentalStatus0
+43	1621	1	tumorVolRateChange:[   47.04 to  126.04)
+43	1741	1	mentalStatus1
+43	2116	1	tumorVolRateChange:[  -53.53 to  -14.88)
+43	2281	1	tumorVolRateChange:[  -53.53 to  -14.88)
+43	2506	1	kpsInitial
+43	2581	1	neuroFunc1
+43	2641	1	kpsUNCH
+43	2776	1	kpsSigDECR
+43	3001	1	Surgery
+43	3031	1	neuroFunc2
+43	3136	1	kpsUNCH
+43	3211	1	neuroFunc1
+43	3766	1	neuroFunc1
+43	3781	1	neuroFunc1
+43	3811	1	neuroFunc3
+43	3856	1	mentalStatus0
+43	4006	1	kpsSigINCR
+43	4036	1	kpsINCR
+43	4096	1	tumorVolRateChange:[   12.65 to   47.04)
+43	4156	1	kpsDECR
+43	4246	1	kpsINCR
+43	4411	1	kpsUNCH
+44	3641	1	Surgery
+44	4201	1	kpsInitial
+45	1426	1	tumorVolRateChange:[-3053.63 to -364.04)
+45	1486	1	neuroFunc0
+45	1566	1	Surgery
+45	1741	1	tumorVolRateChange:[  -53.53 to  -14.88)
+45	1766	2	Radiation	Surgery
+45	1771	1	tumorVolRateChange:[  126.04 to  434.16)
+45	1816	1	kpsInitial
+45	1936	1	tumorVolRateChange:[  -53.53 to  -14.88)
+45	2146	1	kpsUNCH
+45	2506	1	tumorVolRateChange:[   -1.48 to   12.65)
+45	2731	1	kpsSigDECR
+45	2806	1	tumorVolRateChange:[  -53.53 to  -14.88)
+45	2941	1	tumorVolRateChange:[  -14.88 to   -1.48)
+45	3151	1	kpsSigINCR
+45	3166	1	Surgery
+45	3256	1	kpsUNCH
+46	736	1	mentalStatus0
+46	901	1	Surgery
+46	1306	1	kpsInitial
+46	1336	1	neuroFunc1
+46	1501	1	Surgery
+46	1801	1	neuroFunc1
+46	1996	1	mentalStatus0
+46	2266	1	mentalStatus0
+46	2806	1	tumorVolRateChange:[  -53.53 to  -14.88)
+46	3196	1	mentalStatus1
+46	3211	1	mentalStatus0
+46	3931	1	mentalStatus0
+46	4126	1	mentalStatus0
+47	2011	1	kpsInitial
+47	2671	1	mentalStatus0
+47	3021	1	Surgery
+47	3121	1	mentalStatus0
+47	3166	1	kpsDECR
+47	3436	1	tumorVolRateChange:[  126.04 to  434.16)
+47	3466	1	mentalStatus1
+47	3621	1	Surgery
+47	4756	1	neuroFunc2
+47	4861	1	neuroFunc1
+47	4921	1	kpsUNCH
+48	901	1	neuroFunc3
+48	1266	2	Surgery	Radiation
+48	1306	1	neuroFunc3
+48	1816	1	neuroFunc1
+48	2326	1	kpsInitial
+48	2596	1	neuroFunc1
+48	3256	1	neuroFunc0
+48	3451	1	neuroFunc3
+48	3466	1	Surgery
+48	3481	1	neuroFunc2
+48	3541	1	neuroFunc1
+48	3706	1	tumorVolRateChange:[   -1.48 to   12.65)
+48	3866	1	Surgery
+48	3931	1	kpsINCR
+49	3496	1	kpsInitial
+49	3616	1	mentalStatus0
+49	3691	1	mentalStatus0
+49	3721	1	neuroFunc0
+49	3856	1	kpsDECR
+49	3881	1	Surgery
+49	4066	1	kpsINCR
+49	4156	1	neuroFunc2
+49	4546	1	neuroFunc3
+49	4681	1	kpsUNCH
+49	4831	1	kpsDECR
+50	1351	1	neuroFunc3
+50	1651	1	kpsInitial
+50	1831	1	tumorVolRateChange:[ -364.04 to -141.52)
+50	2096	1	Radiation
+50	2326	1	kpsSigINCR
+50	2341	1	kpsINCR
+51	1	2	mentalStatus0	Surgery
+51	16	3	tumorVolRateChange:[-3053.63 to -364.04)	mentalStatus0	kpsInitial
+51	31	2	mentalStatus0	neuroFunc1
+51	46	1	mentalStatus0
+51	61	1	mentalStatus0
+51	76	1	mentalStatus0
+51	91	1	mentalStatus1
+51	106	2	tumorVolRateChange:[   47.04 to  126.04)	mentalStatus0
+51	121	1	tumorVolRateChange:[  126.04 to  434.16)
+51	136	3	kpsUNCH	mentalStatus0	neuroFunc1
+51	151	3	tumorVolRateChange:[-3053.63 to -364.04)	kpsDECR	mentalStatus1
+51	166	1	mentalStatus0
+51	181	3	tumorVolRateChange:[  434.16 to 5616.74]	mentalStatus1	neuroFunc2
+51	201	2	Surgery	Radiation
+51	211	3	kpsINCR	mentalStatus0	neuroFunc2
+51	226	2	kpsDECR	mentalStatus0
+51	241	1	mentalStatus1
+51	256	2	kpsINCR	mentalStatus0
+51	271	1	mentalStatus0
+52	3421	1	mentalStatus0
+52	3586	1	mentalStatus0
+52	3616	1	mentalStatus0
+52	3841	1	mentalStatus0
+52	3856	1	kpsInitial
+52	3961	1	mentalStatus2
+52	4066	1	neuroFunc0
+53	421	1	neuroFunc2
+53	631	1	mentalStatus0
+53	676	1	tumorVolRateChange:[   47.04 to  126.04)
+53	796	1	neuroFunc0
+53	826	1	neuroFunc3
+53	841	1	tumorVolRateChange:[ -141.52 to  -53.53)
+53	916	1	neuroFunc2
+53	1081	1	tumorVolRateChange:[   -1.48 to   12.65)
+53	1171	1	tumorVolRateChange:[  126.04 to  434.16)
+53	1216	1	neuroFunc0
+53	1276	1	neuroFunc1
+53	1306	1	tumorVolRateChange:[ -364.04 to -141.52)
+53	1471	1	neuroFunc1
+53	1501	1	neuroFunc1
+53	1531	1	kpsInitial
+53	1591	1	neuroFunc1
+53	1601	1	Surgery
+53	1801	2	neuroFunc0	Radiation
+53	1816	1	mentalStatus1
+53	1876	1	neuroFunc1
+53	1921	2	tumorVolRateChange:[   12.65 to   47.04)	neuroFunc2
+53	1981	1	neuroFunc2
+53	2001	1	Surgery
+53	2026	1	neuroFunc1
+53	2101	1	neuroFunc0
+54	1186	1	neuroFunc1
+54	1486	1	neuroFunc1
+54	1511	1	Radiation
+54	1516	1	mentalStatus0
+54	1576	1	neuroFunc1
+54	1621	1	kpsInitial
+54	1636	1	neuroFunc1
+54	1786	1	tumorVolRateChange:[   47.04 to  126.04)
+54	1861	1	tumorVolRateChange:[ -364.04 to -141.52)
+55	1951	1	mentalStatus0
+55	2311	1	neuroFunc1
+55	2341	1	tumorVolRateChange:[  -14.88 to   -1.48)
+55	2371	1	tumorVolRateChange:[ -364.04 to -141.52)
+55	2551	1	mentalStatus0
+55	2596	1	tumorVolRateChange:[   -1.48 to   12.65)
+55	2761	1	tumorVolRateChange:[   47.04 to  126.04)
+55	2986	1	mentalStatus0
+55	3016	1	mentalStatus0
+55	3061	1	tumorVolRateChange:[ -141.52 to  -53.53)
+55	3076	1	tumorVolRateChange:[ -141.52 to  -53.53)
+55	4156	1	neuroFunc0
+55	4306	1	tumorVolRateChange:[   12.65 to   47.04)
+55	4411	1	Surgery
+55	4516	1	tumorVolRateChange:[ -141.52 to  -53.53)
+55	4606	1	mentalStatus0
+55	4666	1	mentalStatus0
+55	4876	1	mentalStatus0
+55	5011	1	tumorVolRateChange:[  -14.88 to   -1.48)
+56	16	1	mentalStatus0
+56	31	1	tumorVolRateChange:[   12.65 to   47.04)
+56	61	1	tumorVolRateChange:[  126.04 to  434.16)
+56	76	1	tumorVolRateChange:[  434.16 to 5616.74]
+56	106	2	tumorVolRateChange:[-3053.63 to -364.04)	mentalStatus0
+56	166	1	mentalStatus0
+56	181	1	tumorVolRateChange:[   47.04 to  126.04)
+56	196	1	tumorVolRateChange:[ -364.04 to -141.52)
+56	211	1	kpsInitial
+56	226	2	tumorVolRateChange:[   12.65 to   47.04)	mentalStatus0
+56	241	1	tumorVolRateChange:[  -53.53 to  -14.88)
+56	271	1	tumorVolRateChange:[  434.16 to 5616.74]
+56	316	1	tumorVolRateChange:[-3053.63 to -364.04)
+56	361	2	tumorVolRateChange:[   47.04 to  126.04)	kpsDECR
+56	376	1	mentalStatus0
+56	391	1	tumorVolRateChange:[   47.04 to  126.04)
+56	401	1	Radiation
+56	451	1	tumorVolRateChange:[  -53.53 to  -14.88)
+56	466	1	tumorVolRateChange:[-3053.63 to -364.04)
+56	526	1	neuroFunc0
+56	586	1	tumorVolRateChange:[   47.04 to  126.04)
+56	601	1	Surgery
+56	631	1	tumorVolRateChange:[ -141.52 to  -53.53)
+57	1351	1	kpsInitial
+57	1366	1	kpsDECR
+57	1426	1	kpsINCR
+57	1541	1	Surgery
+57	2041	1	kpsDECR
+57	2146	1	kpsSigDECR
+57	2356	1	kpsSigINCR
+57	2416	1	kpsUNCH
+57	2596	1	neuroFunc1
+57	2686	1	neuroFunc3
+57	2941	1	Surgery
+57	3466	1	kpsUNCH
+57	3496	1	mentalStatus0
+57	3541	1	Surgery
+57	3741	1	Radiation
+58	76	2	tumorVolRateChange:[   -1.48 to   12.65)	mentalStatus0
+58	91	1	kpsInitial
+58	201	1	Surgery
+58	241	1	neuroFunc0
+58	301	1	mentalStatus0
+58	361	1	neuroFunc1
+58	401	1	Surgery
+58	466	1	kpsSigINCR
+58	526	1	kpsINCR
+58	601	1	Radiation
+58	631	1	tumorVolRateChange:[   12.65 to   47.04)
+58	646	3	tumorVolRateChange:[  434.16 to 5616.74]	neuroFunc1	kpsUNCH
+58	706	1	kpsDECR
+58	751	2	neuroFunc1	mentalStatus0
+58	811	1	mentalStatus0
+58	841	1	neuroFunc2
+58	931	1	mentalStatus1
+58	991	1	tumorVolRateChange:[ -141.52 to  -53.53)
+58	1081	1	neuroFunc3
+58	1111	1	neuroFunc3
+58	1171	2	mentalStatus0	kpsINCR
+58	1216	1	neuroFunc1
+58	1306	1	neuroFunc0
+58	1351	1	mentalStatus0
+58	1381	1	kpsINCR
+58	1396	1	neuroFunc1
+58	1486	1	neuroFunc3
+58	1516	1	tumorVolRateChange:[   -1.48 to   12.65)
+58	1546	1	tumorVolRateChange:[   -1.48 to   12.65)
+58	1561	1	neuroFunc0
+58	1606	1	mentalStatus0
+58	1651	2	mentalStatus0	neuroFunc1
+58	1771	1	mentalStatus0
+58	1786	1	tumorVolRateChange:[  126.04 to  434.16)
+58	1801	1	neuroFunc2
+58	1816	1	tumorVolRateChange:[-3053.63 to -364.04)
+58	1891	1	tumorVolRateChange:[   12.65 to   47.04)
+58	1966	1	neuroFunc2
+58	2056	1	kpsSigDECR
+58	2191	1	neuroFunc2
+59	1111	1	kpsInitial
+59	1126	1	kpsUNCH
+59	1186	1	kpsUNCH
+59	1291	1	kpsINCR
+59	1366	1	tumorVolRateChange:[  434.16 to 5616.74]
+59	1486	1	tumorVolRateChange:[   12.65 to   47.04)
+59	1531	1	tumorVolRateChange:[  126.04 to  434.16)
+59	1546	1	kpsUNCH
+59	1621	1	neuroFunc0
+59	1696	1	kpsUNCH
+59	1771	1	mentalStatus0
+59	1831	1	tumorVolRateChange:[ -141.52 to  -53.53)
+59	1861	1	kpsINCR
+59	1951	1	tumorVolRateChange:[   -1.48 to   12.65)
+59	2101	1	kpsDECR
+59	2146	1	tumorVolRateChange:[   12.65 to   47.04)
+59	2221	1	kpsSigDECR
+59	2296	1	neuroFunc1
+59	2386	1	kpsSigINCR
+59	2551	2	kpsSigDECR	neuroFunc0
+59	2566	1	mentalStatus0
+60	121	1	mentalStatus0
+60	281	1	Radiation
+60	556	1	mentalStatus0
+60	676	1	tumorVolRateChange:[ -364.04 to -141.52)
+60	736	1	mentalStatus0
+60	916	1	tumorVolRateChange:[   12.65 to   47.04)
+60	1051	2	tumorVolRateChange:[ -364.04 to -141.52)	kpsInitial
+60	1281	1	Surgery
+60	1321	1	neuroFunc0
+60	1456	1	kpsUNCH
+60	1516	1	neuroFunc0
+60	1636	1	tumorVolRateChange:[   12.65 to   47.04)
+60	1651	1	neuroFunc1
+60	1681	1	kpsUNCH
+60	2146	1	tumorVolRateChange:[  -53.53 to  -14.88)
+60	2281	1	tumorVolRateChange:[   -1.48 to   12.65)
+60	2341	2	neuroFunc1	tumorVolRateChange:[   -1.48 to   12.65)
+60	2401	1	neuroFunc2
+60	2581	1	tumorVolRateChange:[   -1.48 to   12.65)
+60	2611	1	mentalStatus1
+60	2641	1	neuroFunc1
+60	2671	1	neuroFunc1
+60	2681	1	Surgery
+60	2701	1	tumorVolRateChange:[  -14.88 to   -1.48)
+60	2716	1	neuroFunc3
+60	2746	1	tumorVolRateChange:[  -14.88 to   -1.48)
+60	2881	1	mentalStatus0
+60	3001	1	tumorVolRateChange:[   12.65 to   47.04)
+60	3016	1	tumorVolRateChange:[-3053.63 to -364.04)
+61	1201	1	Surgery
+61	1246	1	kpsInitial
+61	1381	1	neuroFunc1
+61	1891	1	mentalStatus0
+61	2086	1	mentalStatus0
+61	4141	1	mentalStatus0
+61	4186	1	neuroFunc2
+63	1576	1	neuroFunc1
+63	1851	1	Surgery
+63	2296	1	mentalStatus0
+63	2386	1	tumorVolRateChange:[  -53.53 to  -14.88)
+63	2731	1	tumorVolRateChange:[   47.04 to  126.04)
+63	2836	1	tumorVolRateChange:[  -53.53 to  -14.88)
+63	2851	1	tumorVolRateChange:[-3053.63 to -364.04)
+63	3301	1	kpsInitial
+64	16	1	kpsInitial
+64	31	2	kpsUNCH	neuroFunc2
+64	76	2	kpsINCR	neuroFunc1
+64	106	2	mentalStatus0	kpsDECR
+64	151	2	mentalStatus0	neuroFunc3
+64	181	2	neuroFunc1	mentalStatus0
+64	211	1	neuroFunc2
+64	241	1	kpsINCR
+64	316	1	mentalStatus0
+64	401	2	Radiation	Surgery
+64	406	1	kpsUNCH
+64	436	1	kpsUNCH
+64	511	2	kpsINCR	mentalStatus0
+64	526	1	mentalStatus0
+64	571	1	kpsDECR
+64	601	1	Surgery
+64	616	1	kpsDECR
+64	631	1	neuroFunc3
+64	676	1	kpsUNCH
+64	691	1	mentalStatus0
+64	706	1	kpsINCR
+64	781	2	kpsDECR	mentalStatus0
+64	801	1	Surgery
+64	811	1	neuroFunc1
+64	856	1	kpsINCR
+65	1	1	Surgery
+65	181	1	tumorVolRateChange:[ -364.04 to -141.52)
+65	201	1	Surgery
+65	241	1	tumorVolRateChange:[  -14.88 to   -1.48)
+65	301	1	neuroFunc0
+65	316	1	tumorVolRateChange:[  -14.88 to   -1.48)
+65	421	1	mentalStatus0
+65	436	1	kpsInitial
+65	496	1	mentalStatus0
+65	556	1	tumorVolRateChange:[   -1.48 to   12.65)
+65	601	2	Radiation	tumorVolRateChange:[  434.16 to 5616.74]
+65	706	1	neuroFunc1
+65	796	1	tumorVolRateChange:[ -141.52 to  -53.53)
+65	811	1	tumorVolRateChange:[-3053.63 to -364.04)
+65	931	1	tumorVolRateChange:[  126.04 to  434.16)
+65	1001	1	Surgery
+66	3901	1	neuroFunc0
+66	4051	1	mentalStatus0
+66	4111	1	mentalStatus0
+66	4441	1	mentalStatus0
+66	4546	1	Radiation
+67	616	1	tumorVolRateChange:[ -364.04 to -141.52)
+67	631	1	neuroFunc1
+67	646	1	neuroFunc1
+67	661	1	tumorVolRateChange:[   47.04 to  126.04)
+67	676	1	neuroFunc1
+67	721	1	neuroFunc2
+67	736	1	neuroFunc0
+67	751	1	kpsInitial
+67	826	1	neuroFunc1
+67	871	1	neuroFunc1
+67	916	1	tumorVolRateChange:[  -53.53 to  -14.88)
+67	946	1	neuroFunc3
+67	1021	1	neuroFunc1
+67	1036	1	neuroFunc1
+67	1081	2	neuroFunc1	kpsSigINCR
+67	1111	1	tumorVolRateChange:[   -1.48 to   12.65)
+67	1126	1	tumorVolRateChange:[  -53.53 to  -14.88)
+68	976	1	neuroFunc1
+68	1426	1	tumorVolRateChange:[  126.04 to  434.16)
+68	1456	1	neuroFunc1
+68	1601	1	Surgery
+68	1786	1	neuroFunc1
+68	1801	1	Surgery
+68	1996	1	neuroFunc0
+68	2001	1	Surgery
+68	2041	1	mentalStatus1
+68	2311	1	mentalStatus1
+68	2386	1	kpsInitial
+68	2416	1	neuroFunc0
+68	2581	1	tumorVolRateChange:[ -141.52 to  -53.53)
+68	2686	1	neuroFunc0
+69	2176	1	kpsInitial
+69	2716	1	neuroFunc1
+69	2761	1	neuroFunc1
+69	2926	1	neuroFunc1
+69	2956	1	neuroFunc0
+69	3076	1	neuroFunc1
+69	3466	1	neuroFunc3
+69	3556	1	mentalStatus0
+69	3856	1	neuroFunc1
+69	4156	1	Surgery
+70	1141	2	kpsInitial	mentalStatus0
+70	1216	1	mentalStatus0
+70	1261	1	mentalStatus0
+70	1326	1	Surgery
+70	1501	1	mentalStatus0
+70	1681	1	mentalStatus2
+70	1996	1	mentalStatus0
+70	2176	1	mentalStatus0
+70	2326	1	mentalStatus0
+71	136	1	kpsInitial
+71	151	1	kpsUNCH
+71	241	1	kpsUNCH
+71	391	1	kpsDECR
+71	901	1	kpsSigDECR
+71	961	1	neuroFunc1
+71	1001	1	Radiation
+71	1051	1	kpsSigINCR
+71	1516	1	kpsSigINCR
+71	1741	1	mentalStatus1
+71	1891	1	tumorVolRateChange:[   12.65 to   47.04)
+71	2101	1	kpsINCR
+71	2131	1	kpsDECR
+71	2161	1	neuroFunc0
+71	2191	1	tumorVolRateChange:[ -364.04 to -141.52)
+71	2201	1	Surgery
+72	826	1	kpsInitial
+72	886	1	tumorVolRateChange:[  434.16 to 5616.74]
+72	916	2	mentalStatus0	neuroFunc2
+72	931	1	mentalStatus1
+72	941	1	Surgery
+72	991	1	neuroFunc0
+72	1051	1	kpsSigINCR
+72	1126	1	tumorVolRateChange:[-3053.63 to -364.04)
+72	1141	1	kpsINCR
+72	1231	1	tumorVolRateChange:[  126.04 to  434.16)
+73	2491	1	mentalStatus0
+73	2506	1	mentalStatus1
+73	2626	1	tumorVolRateChange:[  126.04 to  434.16)
+73	2701	1	neuroFunc1
+73	3076	1	tumorVolRateChange:[  -14.88 to   -1.48)
+73	3121	1	tumorVolRateChange:[-3053.63 to -364.04)
+73	3201	1	Surgery
+73	3601	1	Radiation
+73	3646	1	mentalStatus0
+74	226	1	mentalStatus0
+74	286	1	mentalStatus0
+74	316	2	neuroFunc0	kpsInitial
+74	346	1	tumorVolRateChange:[-3053.63 to -364.04)
+74	376	1	tumorVolRateChange:[  434.16 to 5616.74]
+74	401	1	Surgery
+74	406	1	mentalStatus0
+74	421	1	tumorVolRateChange:[-3053.63 to -364.04)
+74	436	2	kpsDECR	tumorVolRateChange:[ -364.04 to -141.52)
+74	496	1	tumorVolRateChange:[  434.16 to 5616.74]
+74	556	1	tumorVolRateChange:[  434.16 to 5616.74]
+74	601	1	Radiation
+74	631	1	mentalStatus1
+74	646	1	tumorVolRateChange:[-3053.63 to -364.04)
+74	676	1	tumorVolRateChange:[  -53.53 to  -14.88)
+75	1356	1	Surgery
+75	1891	1	mentalStatus1
+75	2026	1	mentalStatus1
+75	2386	1	neuroFunc1
+75	2431	1	kpsInitial
+75	2556	2	Radiation	Surgery
+75	3121	1	neuroFunc1
+76	11	1	neuroFunc2
+76	161	1	neuroFunc0
+76	201	1	Radiation
+76	296	1	neuroFunc1
+76	641	1	neuroFunc1
+76	806	1	kpsInitial
+76	896	1	tumorVolRateChange:[   -1.48 to   12.65)
+76	941	1	tumorVolRateChange:[ -364.04 to -141.52)
+76	1001	1	Surgery
+76	1241	1	neuroFunc1
+76	1376	1	kpsINCR
+76	1406	1	tumorVolRateChange:[  -14.88 to   -1.48)
+76	1481	1	kpsUNCH
+76	1646	1	kpsINCR
+76	2186	1	neuroFunc1
+76	2201	1	Surgery
+76	2231	1	tumorVolRateChange:[   -1.48 to   12.65)
+76	2411	1	neuroFunc3
+76	2546	1	kpsDECR
+76	2666	1	neuroFunc0
+77	351	1	tumorVolRateChange:[   47.04 to  126.04)
+77	561	1	tumorVolRateChange:[ -141.52 to  -53.53)
+77	921	1	tumorVolRateChange:[  -14.88 to   -1.48)
+77	1191	1	mentalStatus0
+77	1236	1	mentalStatus0
+77	1326	1	tumorVolRateChange:[   12.65 to   47.04)
+77	1851	1	mentalStatus0
+77	2201	1	Radiation
+77	2556	1	tumorVolRateChange:[  -14.88 to   -1.48)
+77	3006	1	mentalStatus0
+77	3081	1	mentalStatus0
+77	3276	1	mentalStatus0
+77	3561	1	neuroFunc0
+77	3666	1	kpsInitial
+77	4386	2	neuroFunc2	kpsSigDECR
+77	4401	1	Surgery
+78	1276	1	neuroFunc3
+79	346	1	kpsInitial
+79	496	1	mentalStatus1
+79	646	1	kpsUNCH
+79	811	1	mentalStatus0
+79	841	1	neuroFunc1
+79	866	1	Surgery
+79	961	1	kpsINCR
+79	1036	1	mentalStatus0
+79	1066	1	Radiation
+79	1411	1	mentalStatus0
+79	1516	1	kpsINCR
+79	1726	1	neuroFunc0
+79	1816	1	kpsINCR
+79	1996	1	kpsDECR
+79	2191	1	neuroFunc0
+79	2386	1	mentalStatus0
+79	2401	1	kpsINCR
+79	2641	1	kpsUNCH
+79	2851	2	kpsDECR	mentalStatus1
+79	2866	1	Surgery
+79	2941	2	mentalStatus1	kpsINCR
+79	3046	1	neuroFunc2
+79	3066	1	Surgery
+79	3151	1	neuroFunc0
+79	3226	1	mentalStatus1
+79	3301	1	mentalStatus0
+79	3421	1	mentalStatus0
+79	3496	1	kpsDECR
+79	3511	1	mentalStatus1
+79	3601	1	neuroFunc1
+79	4006	1	kpsINCR
+79	4156	1	mentalStatus0
+80	3736	1	mentalStatus0
+80	3901	1	tumorVolRateChange:[   -1.48 to   12.65)
+80	3946	1	kpsInitial
+80	4051	1	Radiation
+80	4096	1	mentalStatus0
+80	4441	1	kpsINCR
+80	4576	1	neuroFunc3
+81	406	1	mentalStatus0
+81	481	1	kpsInitial
+81	526	1	neuroFunc0
+81	601	1	Surgery
+81	616	1	kpsSigINCR
+81	1066	1	tumorVolRateChange:[  -53.53 to  -14.88)
+81	1246	1	tumorVolRateChange:[   47.04 to  126.04)
+81	1306	1	tumorVolRateChange:[  126.04 to  434.16)
+81	1351	1	tumorVolRateChange:[ -141.52 to  -53.53)
+81	1366	1	neuroFunc1
+81	1441	1	tumorVolRateChange:[ -364.04 to -141.52)
+81	1501	1	mentalStatus0
+81	1561	1	tumorVolRateChange:[  -14.88 to   -1.48)
+81	1601	2	Surgery	Radiation
+81	1726	1	mentalStatus0
+81	1741	1	neuroFunc0
+81	1756	1	kpsSigDECR
+81	1786	1	neuroFunc2
+81	1816	1	tumorVolRateChange:[  126.04 to  434.16)
+81	1891	2	tumorVolRateChange:[-3053.63 to -364.04)	mentalStatus0
+81	1951	1	neuroFunc0
+81	1981	1	tumorVolRateChange:[   -1.48 to   12.65)
+81	2116	1	tumorVolRateChange:[  434.16 to 5616.74]
+81	2131	1	mentalStatus1
+81	2146	2	mentalStatus0	tumorVolRateChange:[-3053.63 to -364.04)
+81	2206	1	tumorVolRateChange:[-3053.63 to -364.04)
+81	2281	1	tumorVolRateChange:[   12.65 to   47.04)
+82	466	1	Surgery
+82	811	1	mentalStatus0
+82	826	1	mentalStatus0
+82	976	1	mentalStatus0
+82	991	1	mentalStatus0
+82	1021	1	neuroFunc1
+82	1141	1	mentalStatus1
+82	1471	1	tumorVolRateChange:[   12.65 to   47.04)
+82	1786	1	mentalStatus1
+82	1891	1	mentalStatus1
+82	2026	1	mentalStatus0
+82	2056	1	mentalStatus0
+82	2311	1	mentalStatus1
+82	2416	1	kpsInitial
+82	2641	1	mentalStatus0
+82	2666	1	Surgery
+82	2716	1	mentalStatus1
+82	2881	1	kpsDECR
+82	2971	1	mentalStatus0
+82	3031	1	mentalStatus0
+82	3091	1	mentalStatus1
+82	3121	1	mentalStatus1
+83	4756	1	kpsInitial
+84	916	1	mentalStatus0
+84	1021	1	neuroFunc1
+84	1066	1	tumorVolRateChange:[   47.04 to  126.04)
+84	1096	1	neuroFunc3
+84	1141	1	Radiation
+84	1156	1	tumorVolRateChange:[ -364.04 to -141.52)
+84	1231	1	neuroFunc1
+84	1246	1	mentalStatus0
+84	1306	1	mentalStatus0
+84	1336	1	mentalStatus2
+84	1351	1	mentalStatus0
+84	1396	1	mentalStatus0
+84	1471	1	tumorVolRateChange:[  -14.88 to   -1.48)
+84	1531	1	tumorVolRateChange:[   47.04 to  126.04)
+84	1541	1	Surgery
+84	1621	1	tumorVolRateChange:[  434.16 to 5616.74]
+84	1681	1	tumorVolRateChange:[-3053.63 to -364.04)
+84	1786	1	mentalStatus0
+84	1801	1	tumorVolRateChange:[  434.16 to 5616.74]
+84	1816	1	mentalStatus2
+84	1861	1	kpsInitial
+85	721	1	mentalStatus0
+85	886	1	Surgery
+85	1111	1	kpsInitial
+85	1831	1	mentalStatus1
+85	2296	1	tumorVolRateChange:[  -14.88 to   -1.48)
+85	2401	1	kpsSigDECR
+85	3256	1	neuroFunc1
+85	3346	1	mentalStatus0
+85	3421	1	kpsSigINCR
+85	3541	1	neuroFunc0
+86	811	1	kpsInitial
+86	1126	1	kpsINCR
+86	1261	1	kpsDECR
+86	1486	2	kpsINCR	neuroFunc1
+86	1531	1	neuroFunc2
+86	1591	1	neuroFunc1
+86	1651	1	kpsINCR
+86	1771	2	kpsUNCH	neuroFunc1
+86	2071	1	neuroFunc1
+86	2131	1	neuroFunc0
+86	2176	2	neuroFunc0	kpsDECR
+86	2326	1	neuroFunc1
+86	2491	1	kpsINCR
+86	2551	1	kpsDECR
+86	2626	1	neuroFunc3
+86	2656	1	neuroFunc3
+86	2671	1	mentalStatus0
+86	3526	1	neuroFunc1
+86	3616	1	kpsINCR
+86	3726	1	Surgery
+87	1666	1	kpsInitial
+87	1791	1	Surgery
+87	1801	1	kpsINCR
+87	1816	1	mentalStatus0
+87	1846	1	mentalStatus0
+87	1891	1	kpsINCR
+87	2131	1	kpsDECR
+87	2536	1	kpsUNCH
+87	2991	1	Radiation
+87	3151	1	neuroFunc1
+88	66	1	Surgery
+88	76	1	mentalStatus0
+88	166	1	neuroFunc3
+88	266	1	Surgery
+88	286	1	mentalStatus0
+88	451	1	mentalStatus0
+88	511	1	mentalStatus0
+88	526	1	mentalStatus1
+88	571	2	kpsInitial	tumorVolRateChange:[  -53.53 to  -14.88)
+88	631	1	kpsSigDECR
+88	766	1	neuroFunc0
+89	1561	1	kpsInitial
+89	1571	1	Surgery
+89	1846	1	neuroFunc1
+89	1971	1	Surgery
+89	2266	1	neuroFunc1
+89	2296	2	kpsUNCH	neuroFunc1
+89	2326	1	neuroFunc2
+89	2341	1	mentalStatus0
+90	301	1	neuroFunc2
+90	496	1	Surgery
+90	541	1	mentalStatus0
+90	696	1	Surgery
+90	736	1	mentalStatus1
+90	796	1	mentalStatus0
+90	1156	1	mentalStatus0
+90	1186	1	tumorVolRateChange:[   12.65 to   47.04)
+90	1231	2	tumorVolRateChange:[ -364.04 to -141.52)	mentalStatus1
+90	1351	1	mentalStatus0
+90	1471	1	mentalStatus0
+90	1651	1	tumorVolRateChange:[   47.04 to  126.04)
+90	1771	1	mentalStatus0
+90	1786	1	mentalStatus0
+90	1816	1	mentalStatus1
+90	1846	1	tumorVolRateChange:[ -364.04 to -141.52)
+90	1966	1	neuroFunc2
+90	1996	1	kpsInitial
+90	2011	1	tumorVolRateChange:[  126.04 to  434.16)
+90	2071	1	mentalStatus0
+90	2176	1	kpsUNCH
+90	2221	1	tumorVolRateChange:[ -364.04 to -141.52)
+90	2251	1	neuroFunc1
+90	2311	1	mentalStatus0
+90	2416	1	tumorVolRateChange:[  -14.88 to   -1.48)
+90	2551	1	kpsINCR
+90	2566	1	mentalStatus0
+90	2896	1	tumorVolRateChange:[   12.65 to   47.04)
+90	3136	1	neuroFunc1
+90	3226	1	neuroFunc1
+90	3436	1	neuroFunc3
+90	3496	1	kpsSigDECR
+90	3541	1	neuroFunc1
+90	3586	1	kpsSigDECR
+90	3871	1	kpsSigINCR
+90	3901	1	tumorVolRateChange:[   -1.48 to   12.65)
+90	3931	1	neuroFunc1
+90	4036	1	tumorVolRateChange:[ -364.04 to -141.52)
+90	4066	1	tumorVolRateChange:[  126.04 to  434.16)
+90	4096	1	mentalStatus0
+90	4156	1	tumorVolRateChange:[  126.04 to  434.16)
+90	4231	1	mentalStatus0
+90	4296	1	Surgery
+90	4306	1	neuroFunc0
+90	4381	1	tumorVolRateChange:[ -141.52 to  -53.53)
+90	4411	1	tumorVolRateChange:[  434.16 to 5616.74]
+90	4426	1	tumorVolRateChange:[  434.16 to 5616.74]
+90	4471	1	mentalStatus0
+90	4696	1	mentalStatus0
+90	4711	1	kpsINCR
+90	4771	1	neuroFunc0
+90	4861	1	tumorVolRateChange:[ -141.52 to  -53.53)
+90	4936	2	tumorVolRateChange:[  434.16 to 5616.74]	kpsUNCH
+90	5086	1	mentalStatus0
+91	1456	1	mentalStatus0
+91	1486	1	neuroFunc0
+91	1531	1	mentalStatus0
+91	1636	1	tumorVolRateChange:[   12.65 to   47.04)
+91	1666	1	tumorVolRateChange:[-3053.63 to -364.04)
+91	1681	1	mentalStatus0
+91	1696	1	neuroFunc0
+91	1801	1	Radiation
+91	1876	1	mentalStatus0
+91	1906	1	neuroFunc2
+91	2101	1	tumorVolRateChange:[   -1.48 to   12.65)
+91	2146	1	tumorVolRateChange:[  434.16 to 5616.74]
+91	2416	1	tumorVolRateChange:[ -141.52 to  -53.53)
+91	2476	1	mentalStatus0
+91	2626	1	mentalStatus0
+91	2671	1	tumorVolRateChange:[  -14.88 to   -1.48)
+92	2506	1	mentalStatus0
+92	2596	1	mentalStatus0
+92	2656	1	mentalStatus0
+92	2686	1	neuroFunc1
+92	2866	1	kpsInitial
+92	2971	1	kpsUNCH
+92	2986	1	neuroFunc2
+92	3166	1	mentalStatus1
+92	3181	1	mentalStatus1
+92	3316	1	tumorVolRateChange:[   47.04 to  126.04)
+92	3526	1	tumorVolRateChange:[ -141.52 to  -53.53)
+92	3541	1	neuroFunc1
+92	3901	1	mentalStatus0
+92	3941	1	Radiation
+92	4051	1	neuroFunc1
+92	4141	1	Surgery
+92	4741	1	Surgery
+92	4816	1	neuroFunc1
+93	201	1	Surgery
+93	226	1	mentalStatus0
+93	271	1	mentalStatus0
+93	301	1	mentalStatus0
+93	346	2	tumorVolRateChange:[   12.65 to   47.04)	neuroFunc1
+93	361	1	neuroFunc1
+93	406	2	mentalStatus0	neuroFunc1
+93	421	2	neuroFunc0	mentalStatus0
+93	436	1	neuroFunc1
+93	451	1	mentalStatus0
+93	481	1	neuroFunc1
+93	511	2	mentalStatus0	kpsInitial
+93	586	1	mentalStatus0
+93	601	1	Radiation
+93	661	1	kpsINCR
+93	691	1	mentalStatus0
+93	706	1	mentalStatus1
+93	766	2	mentalStatus0	tumorVolRateChange:[  -14.88 to   -1.48)
+93	801	1	Surgery
+93	856	2	neuroFunc2	kpsDECR
+94	2656	1	neuroFunc1
+94	3031	1	kpsInitial
+94	3091	1	neuroFunc1
+94	3201	1	Surgery
+94	3401	1	Radiation
+94	3436	1	neuroFunc3
+94	3496	1	kpsDECR
+94	3571	1	neuroFunc2
+94	3616	1	neuroFunc1
+94	3676	1	tumorVolRateChange:[   12.65 to   47.04)
+94	3781	1	neuroFunc1
+94	3961	1	tumorVolRateChange:[  -14.88 to   -1.48)
+94	4006	1	mentalStatus0
+94	4216	1	tumorVolRateChange:[  -14.88 to   -1.48)
+94	4426	1	tumorVolRateChange:[   -1.48 to   12.65)
+94	4441	1	kpsINCR
+94	4456	1	neuroFunc3
+95	171	1	Surgery
+95	196	2	kpsInitial	mentalStatus0
+95	256	1	neuroFunc1
+95	376	1	tumorVolRateChange:[  -53.53 to  -14.88)
+95	421	1	neuroFunc1
+95	451	1	neuroFunc2
+95	511	1	tumorVolRateChange:[  126.04 to  434.16)
+95	616	1	kpsUNCH
+95	631	1	kpsUNCH
+95	771	1	Surgery
+95	841	1	tumorVolRateChange:[ -141.52 to  -53.53)
+95	856	1	neuroFunc1
+95	901	1	neuroFunc1
+95	916	1	tumorVolRateChange:[  126.04 to  434.16)
+95	976	1	neuroFunc2
+95	1051	1	mentalStatus0
+95	1126	1	tumorVolRateChange:[ -141.52 to  -53.53)
+95	1156	1	kpsUNCH
+95	1171	1	neuroFunc1
+95	1261	1	kpsUNCH
+95	1351	1	tumorVolRateChange:[   47.04 to  126.04)
+95	1381	1	mentalStatus0
+95	1426	1	mentalStatus0
+95	1561	1	tumorVolRateChange:[ -141.52 to  -53.53)
+95	1606	1	tumorVolRateChange:[  126.04 to  434.16)
+95	1711	2	neuroFunc1	kpsUNCH
+95	1726	2	neuroFunc0	mentalStatus1
+95	1831	2	neuroFunc3	kpsDECR
+95	1846	1	kpsINCR
+95	1996	1	neuroFunc1
+95	2056	2	tumorVolRateChange:[  -53.53 to  -14.88)	neuroFunc1
+95	2116	1	mentalStatus0
+95	2146	1	neuroFunc0
+95	2161	1	kpsDECR
+95	2311	1	kpsDECR
+95	2326	2	mentalStatus0	kpsSigDECR
+96	2416	1	neuroFunc3
+96	2596	1	kpsInitial
+96	2881	1	neuroFunc2
+96	2956	1	kpsUNCH
+96	2971	2	kpsINCR	neuroFunc0
+96	3166	1	neuroFunc1
+96	3401	2	Surgery	Radiation
+96	3646	1	neuroFunc1
+96	3946	1	tumorVolRateChange:[  -53.53 to  -14.88)
+97	2101	1	kpsInitial
+97	2131	1	mentalStatus0
+97	2141	1	Surgery
+97	2266	1	neuroFunc1
+97	2326	1	neuroFunc0
+97	2986	1	kpsINCR
+97	3001	1	kpsUNCH
+97	3151	1	kpsDECR
+97	3196	1	mentalStatus0
+97	3341	1	Radiation
+97	3571	1	neuroFunc1
+98	151	1	mentalStatus0
+98	421	1	mentalStatus0
+98	931	1	kpsInitial
+98	1051	1	mentalStatus0
+98	1081	1	mentalStatus0
+98	1111	1	kpsDECR
+98	1141	1	neuroFunc2
+98	1531	1	mentalStatus0
+98	2041	1	neuroFunc1
+98	3421	1	mentalStatus0
+98	3601	1	Surgery
+98	4381	1	kpsINCR
+98	4471	1	neuroFunc1
+98	5341	1	neuroFunc1
+99	151	1	mentalStatus0
+99	166	1	neuroFunc2
+99	181	1	neuroFunc2
+99	301	2	kpsInitial	tumorVolRateChange:[ -141.52 to  -53.53)
+99	316	1	mentalStatus0
+99	331	1	tumorVolRateChange:[   12.65 to   47.04)
+99	361	1	mentalStatus0
+99	406	1	tumorVolRateChange:[   12.65 to   47.04)
+99	421	1	kpsUNCH
+99	466	1	neuroFunc2
+99	556	1	tumorVolRateChange:[  -14.88 to   -1.48)
+99	721	1	mentalStatus1
+99	781	1	mentalStatus0
+99	961	1	neuroFunc1
+99	1096	1	mentalStatus1
+99	1111	1	mentalStatus0
+99	1126	1	kpsUNCH
+99	1141	1	Surgery
+99	1171	1	neuroFunc2
+99	1186	1	tumorVolRateChange:[  -14.88 to   -1.48)
+99	1216	1	tumorVolRateChange:[   -1.48 to   12.65)
+99	1231	1	mentalStatus0
+99	1246	1	tumorVolRateChange:[   12.65 to   47.04)
+99	1291	1	mentalStatus0
+100	2266	1	kpsInitial
+100	2461	1	kpsUNCH

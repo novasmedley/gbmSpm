@@ -1,0 +1,24 @@
+Package: gbmSpm
+Type: Package
+Title: Find predictive sequential patterns for clinical glioblastoma patients
+Version: 0.1.0
+Author: Nova F. Smedley
+Maintainer: The package maintainer <novasmedley@ucla.edu>
+Description: This contains the code used to study temporal patterns in tumor volumes and neurological exams to predict residual survival in a glioblastoma cohort, see Smedley, Nova F., Benjamin M. Ellingson, Timothy F. Cloughesy, and William Hsu. "Longitudinal Patterns in Clinical and Imaging Measurements Predict Residual Survival in Glioblastoma Patients." Scientific Reports (2018).
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Depends:
+	arules (>= 1.5-0),
+	arulesSequences (>= 0.2-17),
+	caret (>= 6.0-75),
+	plyr (>= 1.8.4),
+	RMySQL (>= 0.10.14),
+	reshape2 (>= 1.4.2),
+	ROCR (>= 1.0-7),
+	MLmetrics (>= 1.1.1),
+	optparse
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
