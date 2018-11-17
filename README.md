@@ -30,7 +30,7 @@ To just get the R package, in RStudio:
 install.packages("devtools")
 library(devtools)
 install_github("novasmedley/gbmSPM")
-``
+```
 
 Now you can run the examples in 'RStudio examples and vignettes.'
 
